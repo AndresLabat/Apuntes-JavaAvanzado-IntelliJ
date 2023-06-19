@@ -80,22 +80,23 @@ public class lambdas_de_Array_y_Arraylist {
     }
 
     public static char primeraLetraMayus (String nombre) {
+
         return nombre.toUpperCase().charAt(0);
     }
 
-
-
     public static char getFirstChar (String nombre) {
+
         return nombre.charAt(0);
     }
 
 
-
     public static String CharToString (char a) {
+
         return String.valueOf(a);
     }
 
     public static int StringToInt (String nombre) {
+
         return Integer. parseInt(nombre);
     }
 
