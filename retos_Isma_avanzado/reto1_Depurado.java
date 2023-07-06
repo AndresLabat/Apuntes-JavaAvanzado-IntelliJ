@@ -220,7 +220,7 @@ public class reto1_Depurado {
         return Integer. parseInt(nombre);
     }
 
-    public static int posicion (String string, int posicion) {
+    public static int posicion (String string, int posicion) throws NumberFormatException, StringIndexOutOfBoundsException {
 
         String StringPosicion = CharToString(string.charAt(posicion));
         int NumPosicion = StringToInt(StringPosicion);
